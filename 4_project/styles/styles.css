@@ -33,6 +33,11 @@
 
 .text-item{
     padding-bottom: 5%;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .button{
@@ -44,4 +49,13 @@
     margin-left: 10px;
     margin-right: 10px;
     justify-content: space-between;
+}
+
+body{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    width: 1440px;
 }
