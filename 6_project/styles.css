@@ -8,6 +8,7 @@
 
 body{
     color: white;
+    width: 1440px;
 }
 
 *{
@@ -15,6 +16,7 @@ body{
     font-size: 25px;
     line-height: 29px;
     font-weight: bold;
+    box-sizing: border-box;
 }
 
 .text-container{
@@ -25,26 +27,44 @@ body{
     justify-content: center;
     align-content: center;
     height: 824px;
+    flex-wrap: wrap;
 }
 
 .text-block{
+    margin: 10px;
     border: 5px solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 600px;
     height: 300px;
-    display: flex;
-    align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .text{
-    padding: 9%;
+    padding-left: 25%;
+    padding-right: 25%;
     color: #000000;
 }
 
+.footer{
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 57px;
+    background-color: #0000FF;
+}
+
 @media only screen and (max-width: 390px) {
+    body{
+        color: white;
+        width: 375px;
+    }
     .text-container{
         display: flex;
         color: black;
@@ -65,5 +85,10 @@ body{
         align-items: center;
         text-align: center;
         flex-wrap: wrap;
+    }
+
+    .text{
+        padding: 9%;
+        color: #000000;
     }
 }
