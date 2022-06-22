@@ -8,7 +8,6 @@
 
 body{
     color: white;
-    width: 1440px;
 }
 
 *{
@@ -60,10 +59,10 @@ body{
     background-color: #0000FF;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 1255px) {
     body{
         color: white;
-        width: 375px;
+        width: 100%;
     }
     .text-container{
         display: flex;

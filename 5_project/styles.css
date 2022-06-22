@@ -4,15 +4,17 @@
     height: 140px;
     color: #E50043;
     position: fixed;
-    width: 1440px;
+    width: 100%;
     background-color: white;
     padding: 50px;
 }
 
 body{
-    width: 1440px;
     font-size: 40px;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 *{
@@ -49,41 +51,25 @@ a:visited {
     text-decoration: none;
 }
 .image{
-    padding-top: 140px;
+    margin-top: 140px;
+    background-image: url("images/evian_origins_logo.png");
+    height: 950px;
+    width: 1440px;
 }
 
 .text-block{
     margin-top: 150px;
+    margin-bottom: 150px;
     border-radius: 20px;
-    width: 1040px;
+
     height: 280px;
     border: 3px solid #F8BFC7;
-}
-
-.text-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 150px;
-}
-
-.text{
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    font-family: 'Arial';
-    font-size: 25px;
-    line-height: 29px;
-    letter-spacing: 0.05em;
-    width: 992px;
-    height: 232px;
+    padding: 20px;
 }
 
 .bottles{
     display:flex;
     flex-direction: row;
-    padding-left: 200px;
-    padding-right: 200px;
     justify-content: space-between;
 }
 
@@ -91,7 +77,6 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
 }
 
 .glass-image{
@@ -103,6 +88,7 @@ a:visited {
     background-color: #F8BFC7;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .footer-item{
@@ -112,4 +98,31 @@ a:visited {
     font-style: normal;
     font-size: 50px;
     line-height: 57px
+}
+
+.content{
+    width: 1040px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+}
+
+.bottle{
+    display: flex;
+    width: 279px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bottle > p{
+    margin-top: 48px;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 15px;
 }

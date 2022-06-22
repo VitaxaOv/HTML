@@ -2,7 +2,6 @@
     background-color: #E5E000;;
     display: flex;
     flex-direction: column;
-    width: 1440px;
 }
 .header , .links{
     height: 200px;
