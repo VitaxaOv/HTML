@@ -53,8 +53,9 @@ a:visited {
 .image{
     margin-top: 140px;
     background-image: url("images/evian_origins_logo.png");
+    background-size: cover;
     height: 950px;
-    width: 1440px;
+    width: 100%;
 }
 
 .text-block{
